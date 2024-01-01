@@ -1,6 +1,5 @@
-<template>
-</template>
-<script >
+<template></template>
+<script>
 /*export default {
     name:"itemC",
     props:{
@@ -62,5 +61,4 @@
 }
  */
 </script>
-<style>
-</style>
+<style></style>
