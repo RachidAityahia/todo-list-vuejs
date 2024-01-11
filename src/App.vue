@@ -9,14 +9,12 @@
           v-model="taskstxt"
           clearable
         />
-
         <el-button
           class="add w-15% h-12 mb-4 p-2.5 text-base text-ef border-transparent cursor-pointer float-left ml-O bg-bleuC disabled:opacity-40 disabled:cursor-no-drop"
           @click.prevent="addTasks"
           :disabled="!taskstxtRe"
           >Add Task</el-button
         >
-
         <el-button
           class="delete_all w-15% h-12 p-2.5 ml-0 mb-4 text-base text-ef border-transparent cursor-pointer float-left bg-redDel disabled:opacity-40 disabled:cursor-no-drop"
           @click="deleteAll"
@@ -151,6 +149,3 @@ function done(val, index) {
   tasks.value[index].done = val;
 }
 </script>
-
-<!-- :key="index" -->
-<!-- add task index 0 min 2 methods -->
